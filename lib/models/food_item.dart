@@ -21,31 +21,31 @@ final List<FoodItem> menu = [
     name: 'Margherita Pizza',
     description: 'Tomato sauce, mozzarella, and fresh basil.',
     imagePath:
-        'assets/images/pizza.jpg', // Ensure you have these assets or use network URLs
+        'assets/images/pizza.png', // Ensure you have these assets or use network URLs
     price: 12.99,
   ),
   FoodItem(
     name: 'Double Cheeseburger',
     description: 'Two beef patties, cheddar, lettuce, and house sauce.',
-    imagePath: 'assets/images/burger.jpg',
+    imagePath: 'assets/images/burger.png',
     price: 15.50,
   ),
   FoodItem(
     name: 'Caesar Salad',
     description: 'Romaine lettuce, croutons, parmesan, and caesar dressing.',
-    imagePath: 'assets/images/salad.jpg',
+    imagePath: 'assets/images/salad.png',
     price: 9.99,
   ),
   FoodItem(
     name: 'Spaghetti Carbonara',
     description: 'Egg, hard cheese, cured pork, and black pepper.',
-    imagePath: 'assets/images/pasta.jpg',
+    imagePath: 'assets/images/pasta.png',
     price: 14.00,
   ),
   FoodItem(
     name: 'Chocolate Lava Cake',
     description: 'Warm chocolate cake with a liquid core.',
-    imagePath: 'assets/images/cake.jpg',
+    imagePath: 'assets/images/cake.png',
     price: 6.50,
   ),
 ];
