@@ -1,26 +1,49 @@
-# Flutter Restaurant Menu
+# Restaurant Menu (Flutter)
 
-A scrollable digital menu application demonstrating dynamic list rendering in Flutter.
+A scrollable digital menu application that simulates a food ordering experience. This project moves beyond static layouts to teach **Dynamic Lists**, showing you how to render data arrays efficiently using the builder pattern.
 
-## Concepts Covered
-- **ListView.builder:** Efficiently rendering lists of data.
-- **Data Models:** Creating Dart classes to structure app data.
-- **Card & ListTile:** Standard material design components for lists.
-- **Separation of Concerns:** Keeping data logic separate from UI code.
+<p align="center">
+  <img src="./screenshot.png" width="300">
+</p>
 
-## Features
-- Scrollable list of food items.
-- dynamic rendering based on a data array.
-- "Add to Cart" interaction simulation (SnackBar).
-- Custom currency formatting.
+## 🎯 Learning Outcomes
+By building this project, you will learn:
+- **ListView.builder:** How to render potentially infinite lists efficiently (only drawing what is on screen).
+- **Data Models:** Creating custom Dart classes (`FoodItem`) to structure your application data.
+- **ListTile:** Using the standard Flutter widget for rows with images, titles, and trailing icons.
+- **SnackBar:** Displaying temporary popup messages when the user interacts with an item.
 
-## Tech Stack
-- Flutter
-- Dart
-- Material Design
+## 📱 Features
+- **Scrollable Feed:** A smooth list of food items with images and prices.
+- **Data Driven:** The UI is generated entirely from a Dart list, not hardcoded widgets.
+- **Interaction:** Tapping the "Add" button triggers a confirmation popup.
+- **Currency Formatting:** Handling decimal prices (e.g., `$12.99`) properly.
 
-## Getting Started
-1. Clone the repo.
-2. Run `flutter pub get`.
-3. Add food images to `assets/images/` (or use network images as configured).
-4. Run `flutter run`.
+## 🚀 How to Run
+
+1. **Ensure you are in the project directory:**
+    
+    `cd restaurant_menu`
+    
+2. **Install Dependencies:**
+    
+    `flutter pub get`
+    
+3. **Run the App:**
+    
+    `flutter run`
+
+## 🔙 Back to Main Repo
+
+Find more projects and the full learning roadmap here:
+[Flutter Example Apps](https://github.com/thaisangdang/flutter_example_apps)
+
+## 📘 Want to Build Bigger Apps?
+
+This project is just the beginning. If you want to learn how to architect production-ready applications with scalable code, check out my premium guide:
+
+👉 [**Master Flutter Architecture - Build a Production-Ready Social App from Scratch**](https://thaisang.gumroad.com/l/flutter-architecture-build-a-social-app)
+
+## ☕ Support My Work
+
+If you found this project helpful, consider [buying me a coffee](https://buymeacoffee.com/thaisangdang) to keep my work coming!
