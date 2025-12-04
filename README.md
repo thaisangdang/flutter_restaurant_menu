@@ -23,7 +23,7 @@ By building this project, you will learn:
 
 1. **Ensure you are in the project directory:**
     
-    `cd restaurant_menu`
+    `cd flutter_restaurant_menu`
     
 2. **Install Dependencies:**
     
